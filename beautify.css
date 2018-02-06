@@ -1,6 +1,15 @@
-html {}
+html {
+  background: grey;
+  background-size: cover;
+  text-align: center;
+}
 
-body {}
+body {
+  min-height: 100vh;
+  display: flex;
+  flex: 1;
+  align-items: center;
+}
 
 .clock {}
 
