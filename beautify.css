@@ -25,13 +25,24 @@ body {
   position: relative;
   width: 100%;
   height: 100%;
+  transform: translateY(-3px);
 }
 
 .hand {
-  height: 6px;
+  height: 5px;
   background: black;
   position: absolute;
   top: 50%;
   width: 50%;
   transform-origin: 100%;
+}
+
+.hours {
+  width: 30%;
+  left: 20%;
+}
+
+.seconds {
+  background: red;
+  height: 4px;
 }
