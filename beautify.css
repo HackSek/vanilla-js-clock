@@ -29,12 +29,13 @@ body {
 }
 
 .hand {
-  height: 5px;
+  height: 6px;
   background: black;
   position: absolute;
   top: 50%;
   width: 50%;
   transform-origin: 100%;
+  transform: rotate(90deg);
 }
 
 .hours {
