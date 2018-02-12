@@ -36,6 +36,7 @@ body {
   width: 50%;
   transform-origin: 100%;
   transform: rotate(90deg);
+  transition: 0.05s;
 }
 
 .hours {
